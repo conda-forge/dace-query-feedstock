@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -39,8 +39,8 @@ test:
 
 about:
   home: https://dace.unige.ch/
-  dev_url: https://gitlab.unige.ch/dace-public/dace-api
-  summary: The dace-query lets easily query DACE and access public and private data using a simple utility tool.
+  dev_url: https://github.com/astro-dace/dace-query
+  summary: dace-query allows for easy querying of DACE and provides access to both public and private data through a simple utility. 
   license: GPL-3.0-only
   license_file: LICENSE
 
