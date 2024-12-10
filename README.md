@@ -7,9 +7,9 @@ Home: https://dace.unige.ch/
 
 Package license: GPL-3.0-only
 
-Summary: The dace-query lets easily query DACE and access public and private data using a simple utility tool.
+Summary: dace-query allows for easy querying of DACE and provides access to both public and private data through a simple utility.
 
-Development: https://gitlab.unige.ch/dace-public/dace-api
+Development: https://github.com/astro-dace/dace-query
 
 Current build status
 ====================
