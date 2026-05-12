@@ -1,5 +1,5 @@
 {% set name = "dace-query" %}
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dace_query-{{ version }}.tar.gz
-  sha256: 2d0064c392740d3809b9c0653c70926dbb6b6d0bc918b4486a9daa5050ed32c1
+  sha256: 5ce2ccb48c8ad2c1cb3c474ecb7390d9a4d5a60eb339ae1b1f5d4287817758df
 
 build:
   noarch: python
